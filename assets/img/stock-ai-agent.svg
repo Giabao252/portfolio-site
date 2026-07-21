@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+  <rect width="400" height="260" rx="16" fill="#2b2440"/>
+  <rect x="24" y="24" width="352" height="212" rx="10" fill="#1c1830"/>
+
+  <!-- grid lines -->
+  <g stroke="#3a3357" stroke-width="1">
+    <line x1="24" y1="88" x2="376" y2="88"/>
+    <line x1="24" y1="140" x2="376" y2="140"/>
+    <line x1="24" y1="192" x2="376" y2="192"/>
+  </g>
+
+  <!-- candlesticks -->
+  <g stroke="#8f88b0" stroke-width="2">
+    <line x1="60" y1="150" x2="60" y2="200"/>
+    <line x1="100" y1="120" x2="100" y2="175"/>
+    <line x1="140" y1="90" x2="140" y2="150"/>
+    <line x1="180" y1="70" x2="180" y2="130"/>
+  </g>
+  <rect x="53" y="165" width="14" height="20" rx="2" fill="#e8615c"/>
+  <rect x="93" y="140" width="14" height="25" rx="2" fill="#4fd1a5"/>
+  <rect x="133" y="105" width="14" height="30" rx="2" fill="#4fd1a5"/>
+  <rect x="173" y="85" width="14" height="30" rx="2" fill="#e8615c"/>
+
+  <!-- AI trend line -->
+  <polyline points="60,200 100,150 140,120 180,95 220,110 260,80 300,60 340,45"
+            fill="none" stroke="#e8615c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="340" cy="45" r="6" fill="#e8615c"/>
+
+  <!-- magnifier / research glass -->
+  <g transform="translate(300,150)">
+    <circle cx="0" cy="0" r="26" fill="none" stroke="#f5f3ff" stroke-width="6"/>
+    <line x1="18" y1="18" x2="40" y2="40" stroke="#f5f3ff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <text x="24" y="252" font-family="Arial, sans-serif" font-size="14" fill="#8f88b0">Stock Research AI Agent</text>
+</svg>
